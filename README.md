@@ -1,6 +1,8 @@
 # Temario-de-Aplicaciones-Web
 Accede a GitHub y crea un repositorio llamado Temario de Aplicaciones Web con el archivo README en donde investigarás con imágenes los temas propuestos.
-# fundamentos del desarrollo de aplicaciones web
+# fundamentos del desarrollo de aplicaciones web  
+<img width="229" height="155" alt="image" src="https://github.com/user-attachments/assets/dd71825c-a876-4492-aaa3-948ad0ceb486" />  
+
 1. Introducción al desarrollo web  
 1.1 Historia y evolución del desarrollo web
 Años 90: Nacen las primeras páginas web estáticas (HTML).
@@ -38,7 +40,9 @@ Branching: Crear ramas para desarrollar funciones o corregir errores sin afectar
 Merge: Unir los cambios de una rama a otra.
 Pull Requests: Solicitud para fusionar cambios, permitiendo revisión y colaboración.
 
-# Desarrollar componentes y funcionalidades de una aplicación web
+# Desarrollar componentes y funcionalidades de una aplicación web  
+<img width="228" height="171" alt="image" src="https://github.com/user-attachments/assets/20cc9fd6-d251-4b13-9b26-c981ed915f8a" />  
+
 
 1. Diseño e implementación del frontend  
 a) Maquetación/Wireframe/Mockup  
@@ -117,9 +121,93 @@ Rutas protegidas.
 Herramientas sugeridas: JWT, Passport.js, bcrypt, OAuth.  
 
 # Implementar y desplegar una aplicación web funcional  
+<img width="293" height="166" alt="image" src="https://github.com/user-attachments/assets/3711b74f-8c96-4697-ac58-978d104e488c" />  
+
 
 1. Integración de frontend y backend  
 a) Interfaz de usuario Frontend  
 Elige un framework: React, Angular, Vue.js, o simplemente HTML/CSS/JS.  
 Estructura básica: Crea componentes para vistas principales (Home, Login, Dashboard, etc).  
 Ejemplo (React):
+function App() {  
+  return (  
+    <div>  
+      <h1>Mi Aplicación Web</h1>  
+      {/* Otros componentes */}  
+    </div>  
+  );  
+}  
+
+b) Manejo de API  
+Usa fetch o axios para consumir APIs.  
+Ejemplo:  
+// Usando fetch  
+fetch('https://mi-backend.com/api/data')  
+  .then(res => res.json())  
+  .then(data => setData(data));  
+
+c) Proceso de Solicitud y Respuesta de Backend  
+Backend: Node.js con Express, Django, Flask, etc.  
+Ejemplo (Express):  
+const express = require('express');  
+const app = express();  
+app.get('/api/data', (req, res) => {  
+  res.json({ mensaje: '¡Hola desde el backend!' });  
+});  
+CORS: Asegúrate de permitir peticiones del frontend.  
+
+2. Almacenamiento en Servidor  
+a) Tipos de servidores  
+Servidor dedicado: Todo el control, más caro.  
+Servidor compartido: Más barato, menos control.  
+Servidor VPS: Balance entre ambos.
+
+b) Servidores y servicios de hosting  
+Heroku: Fácil para apps pequeñas.  
+Vercel/Netlify: Ideal para frontend y JAMstack.  
+AWS/GCP/Azure: Escalabilidad y control total.  
+DigitalOcean: VPS sencillo y económico.  
+
+c) Proveedores de Servicios de Almacenamiento  
+Base de datos: MongoDB Atlas, Firebase, PostgreSQL (ElephantSQL), MySQL.  
+Almacenamiento de archivos: AWS S3, Google Cloud Storage, Cloudinary.  
+
+3. Optimización y rendimiento  
+a) Optimización de recursos  
+Imágenes: Usa formatos modernos (WebP), comprime imágenes.  
+Scripts: Minifica y combina JS/CSS.  
+Lazy loading: Carga imágenes solo cuando se necesiten.
+
+b) Despliegue de aplicaciones web
+Frontend:  
+Construye y sube los archivos estáticos (npm run build en React).  
+Sube a Netlify, Vercel, o tu propio servidor.  
+Backend:  
+Despliega en Heroku, Render, AWS EC2, etc.  
+Usa PM2 para Node.js en VPS.  
+
+c) CI/CD básico  
+GitHub Actions: Automatiza pruebas y despliegues.  
+Ejemplo (workflow simple para Node.js):  
+name: Node.js CI  
+on: [push]  
+jobs:  
+  build:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - uses: actions/checkout@v2  
+      - uses: actions/setup-node@v2  
+        with:  
+          node-version: '16'  
+      - run: npm install  
+      - run: npm run build  
+      - run: npm test  
+Puedes agregar pasos para desplegar automáticamente.  
+
+d) Documentación del proyecto  
+Crea un archivo README.md:  
+Descripción del proyecto.  
+Tecnologías usadas.  
+Cómo instalar y correr localmente.  
+Cómo desplegar.  
+Ejemplo de uso/API.  
