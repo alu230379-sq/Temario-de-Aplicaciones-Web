@@ -118,3 +118,8 @@ Herramientas sugeridas: JWT, Passport.js, bcrypt, OAuth.
 
 # Implementar y desplegar una aplicación web funcional  
 
+1. Integración de frontend y backend  
+a) Interfaz de usuario Frontend  
+Elige un framework: React, Angular, Vue.js, o simplemente HTML/CSS/JS.  
+Estructura básica: Crea componentes para vistas principales (Home, Login, Dashboard, etc).  
+Ejemplo (React):
