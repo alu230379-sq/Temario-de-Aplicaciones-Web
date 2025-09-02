@@ -1,7 +1,7 @@
 # Temario-de-Aplicaciones-Web
 Accede a GitHub y crea un repositorio llamado Temario de Aplicaciones Web con el archivo README en donde investigarás con imágenes los temas propuestos.
 # fundamentos del desarrollo de aplicaciones web
-1. Introducción al desarrollo web
+1. Introducción al desarrollo web  
 1.1 Historia y evolución del desarrollo web
 Años 90: Nacen las primeras páginas web estáticas (HTML).
 Década de 2000: Surgen tecnologías como JavaScript, CSS y PHP, haciendo la web más interactiva.
