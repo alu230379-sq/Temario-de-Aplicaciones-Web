@@ -36,4 +36,7 @@ GitHub: Plataforma en la nube basada en Git, facilita colaboración y almacenami
 4.2 Flujo de trabajo con ramas
 Branching: Crear ramas para desarrollar funciones o corregir errores sin afectar la versión principal.
 Merge: Unir los cambios de una rama a otra.
-Pull Requests: Solicitud para fusionar cambios, permitiendo revisión y colaboración.  
+Pull Requests: Solicitud para fusionar cambios, permitiendo revisión y colaboración.
+
+# Desarrollar componentes y funcionalidades de una aplicación web
+
