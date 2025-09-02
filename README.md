@@ -40,3 +40,81 @@ Pull Requests: Solicitud para fusionar cambios, permitiendo revisión y colabora
 
 # Desarrollar componentes y funcionalidades de una aplicación web
 
+1. Diseño e implementación del frontend  
+a) Maquetación/Wireframe/Mockup  
+
+Actividad: Crear wireframes o mockups en Figma, Adobe XD, o papel.  
+Conceptos:  
+Diferencia entre wireframe, mockup y prototipo.  
+Principios de UX/UI.  
+Grid system, responsive design.  
+Herramientas sugeridas: Figma, Balsamiq, Adobe XD, Canva.  
+b) API  
+
+Actividad: Definir contratos de API (qué datos necesita el frontend del backend).  
+Conceptos:  
+¿Qué es una API REST?
+Métodos HTTP (GET, POST, PUT, DELETE).  
+Consumo de API desde el frontend (fetch, axios).  
+Herramientas sugeridas: Postman, Swagger, fetch API, Axios.  
+2. Diseño e implementación del backend  
+a) Servidor  
+Actividad: Configurar y levantar un servidor web (ej: Node.js/Express, Django, Flask, etc.).  
+Conceptos:  
+¿Qué es un servidor web?  
+Rutas y controladores.  
+Herramientas sugeridas: Node.js/Express, Python/Flask, Django, FastAPI.  
+b) Manejo de peticiones y respuestas HTTP  
+
+Actividad: Implementar endpoints que reciban y respondan peticiones.  
+Conceptos:  
+Status codes HTTP (200, 404, 500, etc).  
+Body, headers, params, query.
+Herramientas sugeridas: Postman, Insomnia.  
+c) Conexión a bases de datos  
+
+Actividad: Conectar el backend a una base de datos (MySQL, PostgreSQL, MongoDB).  
+Conceptos:  
+Drivers y ORMs.  
+Strings de conexión.  
+Operaciones básicas (conexión, consulta, inserción).  
+3. Bases de datos  
+a) Modelado de datos y relaciones  
+
+Actividad: Diseñar el modelo entidad-relación para la aplicación.  
+Conceptos:  
+Tablas, campos, claves primarias y foráneas.  
+Relaciones: uno a uno, uno a muchos, muchos a muchos.  
+Herramientas sugeridas: dbdiagram.io, DrawSQL, Lucidchart.  
+b) ORM (Object Relational Mapping)  
+
+Actividad: Usar un ORM para interactuar con la base de datos desde el backend.  
+Conceptos:  
+¿Qué es un ORM?  
+Ventajas y desventajas frente a consultas SQL directas.  
+Herramientas sugeridas: Sequelize (Node.js), SQLAlchemy (Python), TypeORM (TypeScript), Prisma.  
+c) CRUD desde el backend  
+
+Actividad: Implementar operaciones CRUD (Create, Read, Update, Delete) desde el backend.  
+Conceptos:  
+Rutas RESTful para recursos.  
+Manejo de errores.  
+4. Seguridad básica en aplicaciones web  
+a) Validación de formularios  
+
+Actividad: Validar datos en el frontend y backend.  
+Conceptos:  
+Validación de tipos, longitudes, formatos.  
+Sanitización de entradas.  
+Herramientas sugeridas: Yup, Joi, express-validator.  
+b) Autenticación y autorización  
+
+Actividad: Implementar autenticación básica (ej: login con usuario/contraseña).  
+Conceptos:  
+Diferencia entre autenticación y autorización.  
+Tokens JWT, sesiones, cookies.  
+Rutas protegidas.  
+Herramientas sugeridas: JWT, Passport.js, bcrypt, OAuth.  
+
+# Implementar y desplegar una aplicación web funcional  
+
