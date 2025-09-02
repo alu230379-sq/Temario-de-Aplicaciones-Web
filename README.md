@@ -1,16 +1,16 @@
 # Temario-de-Aplicaciones-Web
 Accede a GitHub y crea un repositorio llamado Temario de Aplicaciones Web con el archivo README en donde investigarás con imágenes los temas propuestos.
-#fundamentos del desarrollo de aplicaciones web
+# fundamentos del desarrollo de aplicaciones web
 1. Introducción al desarrollo web
 1.1 Historia y evolución del desarrollo web
 Años 90: Nacen las primeras páginas web estáticas (HTML).
 Década de 2000: Surgen tecnologías como JavaScript, CSS y PHP, haciendo la web más interactiva.
-Actualidad: Proliferan aplicaciones web avanzadas (SPA, PWA) que ofrecen experiencias similares a aplicaciones nativas.
+Actualidad: Proliferan aplicaciones web avanzadas (SPA, PWA) que ofrecen experiencias similares a aplicaciones nativas.  
 1.2 Tipos de aplicaciones web
 Estáticas: Solo muestran información fija (HTML, CSS).
 Dinámicas: El contenido cambia según la interacción del usuario o datos del servidor (PHP, MySQL).
 SPA (Single Page Application): Cargan una sola página y actualizan el contenido dinámicamente (React, Angular).
-PWA (Progressive Web App): Aplicaciones web que funcionan offline, pueden instalarse y enviar notificaciones push.
+PWA (Progressive Web App): Aplicaciones web que funcionan offline, pueden instalarse y enviar notificaciones push.  
 2. Arquitectura de aplicaciones web
 2.1 Cliente-Servidor
 Cliente: Navegador del usuario (front-end).
